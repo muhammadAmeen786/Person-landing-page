@@ -10,4 +10,4 @@
  - how to write the Css more efficiently.
 
 # Here is the preview of the project.
-!["img"](/1.png?raw=true "My landing Page")
+<img src="thumbnail.png" height="50px" width="100px>

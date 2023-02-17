@@ -11,4 +11,6 @@ it is made using HTML CSS. Prime focus was on learning positions in css like Rel
 
 # Here is the preview of the project.
 
+[Live page link](https://whatistrendingin2025.netlify.app/)
+
 ![preview](/1.png "preview of the project")

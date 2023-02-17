@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     margin-top: 40px;
+    background-color: #fff;
+}
+
+/* [alt="brand-logo"]{
+    height: 4rem;
+    width: 6rem;
+} */
+
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-button{
+    width: 7rem;
+    height: 2rem;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: none;
+
+}
+.list{
+    display: flex;
+    width: 40vw;
+    height: 2rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list>.list-item{
+    text-align: left;
+    /* padding-left: 10px; */
+    list-style-type: none;
+    /* border: 2px solid red; */
+}
+.list>.list-item:hover{
+    font-weight: 500;
+    border-bottom: 3px solid black;
+
+}
+.button-group{
+    display: flex;
+}
+[alt="square-pattern"]{
+    height: 250px;
+    width: 250px;
+
+    position: absolute;
+    left: 19rem;
+    top: 21rem;
+}
+[alt="person-hero-iamge"]{
+    height: 400px;
+    width: 300px;
+    position:absolute;
+    left: 8rem;
+    top: 9rem;
+}
+[ alt="globe-pattern"]{
+    position:absolute;
+    left: 40rem;
+    top: 8rem;
+    height: 50px;
+    width: 50px;
+
+}
+[alt="start-pattern"]{
+    position:absolute;
+    left: 70rem;
+    top: 10rem;
+    height: 35px;
+    width: 35px;
+
+}
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 380px;
+    /* border: 3px solid red; */
+    position: absolute;
+    left: 34rem;
+    top: 14rem;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.hero-heading{
+    font-size: 35px;
+    /* letter-spacing: 6px; */
+    word-spacing: 10px;
+}
+.hero-description{
+    color: rgb(75, 70, 70);
+}
+.button-email{
+    width: 9rem;
+    height: 2rem;
+    border: 0.5px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+.button-join{
+    width: 5rem;
+    height: 1.8rem;
+    margin-left: 4px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+
+}
+.contact-heading{
+    color: rgb(75, 70, 70);
+    margin-bottom: 10px;
+}
+.icons>span>img{
+    padding-left: 10px;
+    height: 24px;
+    width: 24px;
+}
+
